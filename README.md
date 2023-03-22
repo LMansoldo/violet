@@ -1,7 +1,7 @@
-#Violet CLI App
+# Violet CLI App
 Violet is a command-line interface (CLI) application written in Elixir. This app allows you to generate Jest test files for your React components using a provided file path.
 
-##Installation
+## Installation
 To install Violet, you will need to have Elixir installed on your computer. You can download Elixir from the official website here.
 
 Once Elixir is installed, you can follow the steps below to install Violet:
@@ -31,7 +31,7 @@ mix escript.build
 
 This command will create an executable file named violet in the root directory of the project.
 
-##Usage
+## Usage
 To use Violet, navigate to the directory where your React components are located, and run the following command:
 
 ```
