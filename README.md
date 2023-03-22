@@ -1,21 +1,41 @@
-# Violet
+#Violet CLI App
+Violet is a command-line interface (CLI) application written in Elixir. This app allows you to generate Jest test files for your React components using a provided file path.
 
-**TODO: Add description**
+##Installation
+To install Violet, you will need to have Elixir installed on your computer. You can download Elixir from the official website here.
 
-## Installation
+Once Elixir is installed, you can follow the steps below to install Violet:
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `violet` to your list of dependencies in `mix.exs`:
+Clone the Violet repository from GitHub:
 
-```elixir
-def deps do
-  [
-    {:violet, "~> 0.1.0"}
-  ]
-end
+```
+git clone https://github.com/LMansoldo/violet.git
+cd violet
+```
+Install dependencies by running:
+
+```
+mix deps.get
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/violet>.
+Compile the code by running:
+```
+mix compile
+```
 
+Build the application by running:
+
+```
+mix escript.build
+```
+
+This command will create an executable file named violet in the root directory of the project.
+
+##Usage
+To use Violet, navigate to the directory where your React components are located, and run the following command:
+
+```
+./violet --unitTest <filepath>
+```
+
+Replace <filepath> with the path to your component file. This command will generate Jest test files for your component, which you can then use to test your Svelte application.
