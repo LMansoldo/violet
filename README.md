@@ -1,8 +1,8 @@
 # Violet CLI App
-Violet is a command-line interface (CLI) application written in Elixir. This app allows you to generate Jest test files for your React components using a provided file path.
+Violet is a command-line interface (CLI) application written in Elixir. This app allows you to generate Jest test files for your Svelte components using a provided file path.
 
 ## Installation
-To install Violet, you will need to have Elixir installed on your computer. You can download Elixir from the official website here.
+To install Violet, you will need to have Elixir installed on your computer. You can download Elixir from the official website [here](https://elixir-lang.org/install.html).
 
 Once Elixir is installed, you can follow the steps below to install Violet:
 
